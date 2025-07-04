@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .profile-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .profile-info {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .info-label {
+            font-weight: bold;
+            display: inline-block;
+            width: 100px;
+        }
+        .logout-btn {
+            background: #f44336;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .images-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .image-item img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        #uploadStatus {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 4px;
+            display: none;
+        }
+        .success {
+            background-color: #d4edda;
+            color: #155724;
+            display: block;
+        }
+        .error {
+            background-color: #f8d7da;
+            color: #721c24;
+            display: block;
+        }
+        #previewContainer {
+            margin: 10px 0;
+        }
+        #previewImage {
+            max-width: 200px;
+            max-height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-header">
+        <h1>User Profile</h1>
+        <p>Welcome back, {{ username }}!</p>
+    </div>
+    
+    <div class="profile-info">
+        <div class="info-item">
+            <span class="info-label">Username:</span>
+            <span>{{ username }}</span>
+        </div>
+    </div>
+    
+    <form action="/logout" method="post">
+        <button type="submit" class="logout-btn">Logout</button>
+    </form>
+
+    <div class="image-upload">
+        <h3>Upload Image</h3>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <input type="file" id="fileInput" name="file" accept="image/*" required>
+            <div id="previewContainer" style="display:none;">
+                <p>Preview:</p>
+                <img id="previewImage">
+            </div>
+            <button type="submit">Upload</button>
+        </form>
+        <div id="uploadStatus"></div>
+    </div>
+
+    <div class="user-images">
+        <h3>Your Images</h3>
+        <div class="images-grid">
+            {% for image in images %}
+            <div class="image-item">
+                <img src="/images/{{ image.id }}" alt="{{ image.filename }}">
+                <p>{{ image.filename }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <script>
+        // Превью изображения перед загрузкой
+        document.getElementById('fileInput').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(event) {
+                    const preview = document.getElementById('previewImage');
+                    preview.src = event.target.result;
+                    document.getElementById('previewContainer').style.display = 'block';
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+
+        // AJAX-загрузка файла
+        document.getElementById('uploadForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const fileInput = document.getElementById('fileInput');
+            const statusDiv = document.getElementById('uploadStatus');
+            const formData = new FormData();
+            
+            if (fileInput.files.length === 0) {
+                statusDiv.textContent = "Please select a file first";
+                statusDiv.className = 'error';
+                return;
+            }
+
+            formData.append('file', fileInput.files[0]);
+
+            try {
+                const response = await fetch('/upload', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const result = await response.json();
+                
+                if (response.ok) {
+                    statusDiv.textContent = `Image "${result.filename}" uploaded successfully!`;
+                    statusDiv.className = 'success';
+                    
+                    // Очищаем форму
+                    fileInput.value = '';
+                    document.getElementById('previewContainer').style.display = 'none';
+                    
+                    // Обновляем список изображений (можно перезагрузить страницу или добавить динамически)
+                    setTimeout(() => {
+                        window.location.reload();
+                    }, 1500);
+                } else {
+                    statusDiv.textContent = result.error || "Upload failed";
+                    statusDiv.className = 'error';
+                }
+            } catch (error) {
+                statusDiv.textContent = "Error: " + error.message;
+                statusDiv.className = 'error';
+            }
+        });
+    </script>
+</body>
+</html>
