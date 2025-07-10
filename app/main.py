@@ -9,13 +9,6 @@ import logging
 
 Base.metadata.create_all(bind=engine)
 
-logging.basicConfig(
-    filename='/var/log/app/app.log',
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    filemode='a'
-)
-
 app = FastAPI()
 templates = Jinja2Templates(directory="templates")
 
