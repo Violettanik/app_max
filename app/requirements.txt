@@ -5,3 +5,4 @@ uvicorn
 python-dotenv
 jinja2
 python-multipart
+prometheus-client
