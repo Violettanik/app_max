@@ -7,12 +7,12 @@ class User(Base):
     id = Column(Integer, primary_key=True, index=True)
     username = Column(String, unique=True, index=True)
     email = Column(String, unique=True, index=True)
-    password = Column(String)  # В реальном проекте храните только хеш!
+    password = Column(String)
 
 class Image(Base):
     __tablename__ = "images"
     
     id = Column(Integer, primary_key=True, index=True)
     filename = Column(String)
-    filepath = Column(String)  # Путь к файлу на диске
-    owner_username = Column(String)  # Владелец изображения
+    filepath = Column(String)
+    owner_username = Column(String)
