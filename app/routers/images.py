@@ -11,7 +11,6 @@ import shutil
 
 router = APIRouter()
 
-# Директория для хранения изображений
 IMAGES_DIR = os.getenv("IMAGES_DIR")
 os.makedirs(IMAGES_DIR, exist_ok=True)
 
@@ -23,12 +22,10 @@ async def upload_image(
 ):
     username = request.cookies.get("username")
     try:
-        # Сохраняем файл на диск
         file_path = os.path.join(IMAGES_DIR, file.filename)
         with open(file_path, "wb") as buffer:
             shutil.copyfileobj(file.file, buffer)
     
-        # Сохраняем информацию в БД
         db_image = Image(
             filename=file.filename,
             filepath=file_path,
