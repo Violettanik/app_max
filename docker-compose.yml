@@ -5,6 +5,7 @@ services:
     build:
       context: .
       dockerfile: app/Dockerfile
+      network: host
     image: violettanik/app_max:latest
     container_name: app
     ports:
