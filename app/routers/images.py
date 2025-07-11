@@ -8,6 +8,7 @@ from sqlalchemy.orm import Session
 from ..models import Image, User
 from ..database import get_db
 import shutil
+from ..main import UPLOADED_IMAGES
 
 router = APIRouter()
 
@@ -22,6 +23,7 @@ async def upload_image(
 ):
     username = request.cookies.get("username")
     try:
+        UPLOADED_IMAGES.inc()
         file_path = os.path.join(IMAGES_DIR, file.filename)
         with open(file_path, "wb") as buffer:
             shutil.copyfileobj(file.file, buffer)
