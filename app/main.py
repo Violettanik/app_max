@@ -27,7 +27,7 @@ REQUEST_LATENCY = Histogram(
     ['method', 'endpoint']
 )
 
-UPLOADED_IMAGES = Gauge(
+UPLOADED_IMAGES = Counter(
     'uploaded_images_total',
     'Total Uploaded Images'
 )
