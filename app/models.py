@@ -1,0 +1,26 @@
+from sqlalchemy import Column, Integer, String
+from .database import Base
+
+class User(Base):
+    __tablename__ = "users"
+
+    id = Column(Integer, primary_key=True, index=True)
+    username = Column(String, unique=True, index=True)
+    email = Column(String, unique=True, index=True)
+    password = Column(String)
+
+class Image(Base):
+    __tablename__ = "images"
+    
+    id = Column(Integer, primary_key=True, index=True)
+    filename = Column(String)
+    filepath = Column(String)
+    owner_username = Column(String)
+
+class AuthImage(Base):
+    __tablename__ = "auth_images"
+    
+    id = Column(Integer, primary_key=True, index=True)
+    filename = Column(String)
+    filepath = Column(String)
+    owner_username = Column(String, unique=True)  # У каждого пользователя только одна auth image

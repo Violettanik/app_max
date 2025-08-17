@@ -1,0 +1,628 @@
+INFO:     Started server process [7]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     192.168.1.108:55692 - "POST /logout HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:55692 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:55692 - "POST /login HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:55692 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:59948 - "POST /upload HTTP/1.1" 200 OK
+INFO:     192.168.1.108:59948 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:59948 - "GET /images/1 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:55486 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:55486 - "GET /images/1 HTTP/1.1" 200 OK
+INFO:     Started server process [7]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     192.168.1.108:53900 - "POST /logout HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:53900 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:53900 - "POST /login HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:53900 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:53900 - "POST /upload HTTP/1.1" 200 OK
+INFO:     192.168.1.108:53900 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:53900 - "GET /images/1 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:37348 - "POST /logout HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:37348 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:46302 - "POST /login HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:46302 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:57758 - "POST /upload HTTP/1.1" 200 OK
+INFO:     192.168.1.108:57758 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:57758 - "GET /images/2 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:53510 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:53510 - "GET /images/2 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:57994 - "GET /user/images HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     192.168.1.108:56806 - "GET /image/1 HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     192.168.1.108:56806 - "GET /image/2 HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     192.168.1.108:59410 - "GET /images/1 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:59410 - "GET /images/2 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:57500 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:57500 - "GET /images/2 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:57516 - "GET /profile HTTP/1.1" 307 Temporary Redirect
+INFO:     192.168.1.108:57516 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:34554 - "GET /user/images HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     192.168.1.108:43868 - "GET /images/2 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:43868 - "GET /images/1 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:42748 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:42748 - "GET /images/2 HTTP/1.1" 200 OK
+INFO:     Started server process [7]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     192.168.1.108:44194 - "POST /logout HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:44194 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:33438 - "POST /login HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:33438 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:33438 - "POST /logout HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:33438 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:33438 - "POST /login HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:33438 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:57406 - "POST /upload HTTP/1.1" 200 OK
+INFO:     192.168.1.108:57406 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:57406 - "GET /images/1 HTTP/1.1" 404 Not Found
+INFO:     192.168.1.108:57406 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:57406 - "GET /images/1 HTTP/1.1" 404 Not Found
+INFO:     192.168.1.108:57406 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:57406 - "GET /images/1 HTTP/1.1" 404 Not Found
+INFO:     Started server process [7]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     192.168.1.108:60714 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     192.168.1.108:60714 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:60714 - "POST /login HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:60714 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:42656 - "POST /upload HTTP/1.1" 200 OK
+INFO:     192.168.1.108:42656 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:42656 - "GET /images/1 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:42656 - "POST /logout HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:42656 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:52212 - "POST /login HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:52212 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:51454 - "POST /upload HTTP/1.1" 200 OK
+INFO:     192.168.1.108:51454 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:51454 - "GET /images/2 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:38738 - "GET /images/1 HTTP/1.1" 307 Temporary Redirect
+INFO:     192.168.1.108:38738 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:54862 - "GET /register HTTP/1.1" 200 OK
+Изображение сохранено как vnik_image.jpg
+INFO:     192.168.1.108:36626 - "POST /register HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:36626 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:40338 - "POST /login HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:40338 - "GET /profile HTTP/1.1" 200 OK
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 7, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/local/lib/python3.13/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+  File "/usr/local/lib/python3.13/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/uvicorn/main.py", line 413, in main
+    run(
+    ~~~^
+        app,
+        ^^^^
+    ...<45 lines>...
+        h11_max_incomplete_event_size=h11_max_incomplete_event_size,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/uvicorn/main.py", line 580, in run
+    server.run()
+    ~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/site-packages/uvicorn/server.py", line 67, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/site-packages/uvicorn/server.py", line 71, in serve
+    await self._serve(sockets)
+  File "/usr/local/lib/python3.13/site-packages/uvicorn/server.py", line 78, in _serve
+    config.load()
+    ~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/site-packages/uvicorn/config.py", line 436, in load
+    self.loaded_app = import_from_string(self.app)
+                      ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/local/lib/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/app/main.py", line 76, in <module>
+    from .routers import auth,images
+  File "/app/routers/auth.py", line 14, in <module>
+    AUTH_IMAGES_DIR = os.getenv("AUTH_IMAGES_DIR")
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 7, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/local/lib/python3.13/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+  File "/usr/local/lib/python3.13/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/uvicorn/main.py", line 413, in main
+    run(
+    ~~~^
+        app,
+        ^^^^
+    ...<45 lines>...
+        h11_max_incomplete_event_size=h11_max_incomplete_event_size,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/uvicorn/main.py", line 580, in run
+    server.run()
+    ~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/site-packages/uvicorn/server.py", line 67, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/site-packages/uvicorn/server.py", line 71, in serve
+    await self._serve(sockets)
+  File "/usr/local/lib/python3.13/site-packages/uvicorn/server.py", line 78, in _serve
+    config.load()
+    ~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/site-packages/uvicorn/config.py", line 436, in load
+    self.loaded_app = import_from_string(self.app)
+                      ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/local/lib/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/app/main.py", line 76, in <module>
+    from .routers import auth,images
+  File "/app/routers/auth.py", line 14, in <module>
+    AUTH_IMAGES_DIR = os.getenv("AUTH_IMAGES_DIR")
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+INFO:     Started server process [7]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     192.168.1.108:60492 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:60492 - "POST /login HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:60492 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:60492 - "POST /logout HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:60492 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:60492 - "GET /register HTTP/1.1" 200 OK
+Изображение сохранено как /app/auth_images/vnik_image.jpg
+INFO:     192.168.1.108:39706 - "POST /register HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:39706 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:56028 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:56032 - "GET /register HTTP/1.1" 200 OK
+Изображение сохранено как /app/auth_images/vnik2_image.jpg
+INFO:     192.168.1.108:36004 - "POST /register HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:36004 - "GET /login HTTP/1.1" 200 OK
+INFO:     Started server process [7]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     192.168.1.108:41364 - "GET /register HTTP/1.1" 200 OK
+Изображение сохранено как /app/auth_images/vnik_auth.jpg
+INFO:     192.168.1.108:56324 - "POST /register HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+  + Exception Group Traceback (most recent call last):
+  |   File "/usr/local/lib/python3.13/site-packages/starlette/_utils.py", line 77, in collapse_excgroups
+  |     yield
+  |   File "/usr/local/lib/python3.13/site-packages/starlette/middleware/base.py", line 183, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |                ~~~~~~~~~~~~~~~~~~~~~~~^^
+  |   File "/usr/local/lib/python3.13/site-packages/anyio/_backends/_asyncio.py", line 772, in __aexit__
+  |     raise BaseExceptionGroup(
+  |         "unhandled errors in a TaskGroup", self._exceptions
+  |     ) from None
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.13/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    |     result = await app(  # type: ignore[func-returns-value]
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |         self.scope, self.receive, self.send
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |     )
+    |     ^
+    |   File "/usr/local/lib/python3.13/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    |     return await self.app(scope, receive, send)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/usr/local/lib/python3.13/site-packages/fastapi/applications.py", line 1054, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "/usr/local/lib/python3.13/site-packages/starlette/applications.py", line 113, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "/usr/local/lib/python3.13/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    |     raise exc
+    |   File "/usr/local/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "/usr/local/lib/python3.13/site-packages/starlette/middleware/base.py", line 182, in __call__
+    |     with recv_stream, send_stream, collapse_excgroups():
+    |                                    ~~~~~~~~~~~~~~~~~~^^
+    |   File "/usr/local/lib/python3.13/contextlib.py", line 162, in __exit__
+    |     self.gen.throw(value)
+    |     ~~~~~~~~~~~~~~^^^^^^^
+    |   File "/usr/local/lib/python3.13/site-packages/starlette/_utils.py", line 83, in collapse_excgroups
+    |     raise exc
+    |   File "/usr/local/lib/python3.13/site-packages/starlette/middleware/base.py", line 184, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/app/main.py", line 68, in monitor_requests
+    |     raise e
+    |   File "/app/main.py", line 63, in monitor_requests
+    |     response = await call_next(request)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/usr/local/lib/python3.13/site-packages/starlette/middleware/base.py", line 159, in call_next
+    |     raise app_exc
+    |   File "/usr/local/lib/python3.13/site-packages/starlette/middleware/base.py", line 144, in coro
+    |     await self.app(scope, receive_or_disconnect, send_no_error)
+    |   File "/usr/local/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    |     await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+    |   File "/usr/local/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "/usr/local/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "/usr/local/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "/usr/local/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    |     await route.handle(scope, receive, send)
+    |   File "/usr/local/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    |     await self.app(scope, receive, send)
+    |   File "/usr/local/lib/python3.13/site-packages/starlette/routing.py", line 78, in app
+    |     await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+    |   File "/usr/local/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "/usr/local/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "/usr/local/lib/python3.13/site-packages/starlette/routing.py", line 75, in app
+    |     response = await f(request)
+    |                ^^^^^^^^^^^^^^^^
+    |   File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 302, in app
+    |     raw_response = await run_endpoint_function(
+    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |     ...<3 lines>...
+    |     )
+    |     ^
+    |   File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 213, in run_endpoint_function
+    |     return await dependant.call(**values)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/app/routers/auth.py", line 72, in register_user
+    |     auth_image = AuthImage(
+    |                  ^^^^^^^^^
+    | NameError: name 'AuthImage' is not defined
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.13/site-packages/starlette/applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.13/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/usr/local/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.13/site-packages/starlette/middleware/base.py", line 182, in __call__
+    with recv_stream, send_stream, collapse_excgroups():
+                                   ~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/starlette/_utils.py", line 83, in collapse_excgroups
+    raise exc
+  File "/usr/local/lib/python3.13/site-packages/starlette/middleware/base.py", line 184, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/main.py", line 68, in monitor_requests
+    raise e
+  File "/app/main.py", line 63, in monitor_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/starlette/middleware/base.py", line 159, in call_next
+    raise app_exc
+  File "/usr/local/lib/python3.13/site-packages/starlette/middleware/base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/usr/local/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/usr/local/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/local/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/local/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.13/site-packages/starlette/routing.py", line 78, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/usr/local/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/local/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/local/lib/python3.13/site-packages/starlette/routing.py", line 75, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 302, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 213, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/routers/auth.py", line 72, in register_user
+    auth_image = AuthImage(
+                 ^^^^^^^^^
+NameError: name 'AuthImage' is not defined
+INFO:     Started server process [7]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     192.168.1.108:34056 - "GET /register HTTP/1.1" 200 OK
+Изображение сохранено как /app/auth_images/vnik_auth.jpg
+INFO:     192.168.1.108:39478 - "POST /register HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:39478 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:39478 - "POST /login HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:39478 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:39478 - "GET /auth_images/vnik HTTP/1.1" 200 OK
+INFO:     Started server process [7]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     192.168.1.108:52724 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:52724 - "GET /register HTTP/1.1" 200 OK
+Изображение сохранено как /app/auth_images/vnik_auth.jpg
+INFO:     192.168.1.108:42556 - "POST /register HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:42556 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:42556 - "POST /login HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:42556 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:42556 - "GET /auth_images/vnik HTTP/1.1" 200 OK
+INFO:     Started server process [7]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     192.168.1.108:38252 - "GET /profile HTTP/1.1" 307 Temporary Redirect
+INFO:     192.168.1.108:38252 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:38252 - "GET /register HTTP/1.1" 200 OK
+Изображение сохранено как /app/auth_images/vnik_auth.jpg
+INFO:     192.168.1.108:47092 - "POST /register HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:47092 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:47092 - "POST /login HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:47092 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:47092 - "GET /auth_images/vnik HTTP/1.1" 200 OK
+INFO:     Started server process [7]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     192.168.1.108:56844 - "GET /profile HTTP/1.1" 307 Temporary Redirect
+INFO:     192.168.1.108:56844 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:56844 - "GET /register HTTP/1.1" 200 OK
+Изображение сохранено как /app/auth_images/vnik_auth.jpg
+INFO:     192.168.1.108:46982 - "POST /register HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:46982 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:46982 - "POST /login HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:46982 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:46982 - "GET /auth_images/vnik HTTP/1.1" 200 OK
+INFO:     192.168.1.108:46996 - "GET //auth_images/vnik HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     192.168.1.108:50710 - "GET /auth_images/vnik HTTP/1.1" 200 OK
+INFO:     192.168.1.108:41220 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:41220 - "GET /auth_images/vnik HTTP/1.1" 200 OK
+INFO:     192.168.1.108:41220 - "POST /logout HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:41220 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:41220 - "POST /login HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:41220 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:41220 - "GET /auth_images/user1 HTTP/1.1" 404 Not Found
+INFO:     Started server process [7]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     192.168.1.108:53742 - "GET /profile HTTP/1.1" 307 Temporary Redirect
+INFO:     192.168.1.108:53742 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:33006 - "GET /register HTTP/1.1" 200 OK
+Изображение сохранено как /app/auth_images/vnik_auth.jpg
+INFO:     192.168.1.108:33014 - "POST /register HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:33014 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:33014 - "POST /login HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:33014 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:33014 - "GET /auth_images/vnik HTTP/1.1" 200 OK
+INFO:     192.168.1.108:54446 - "POST /logout HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:54446 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:54446 - "GET /register HTTP/1.1" 200 OK
+Изображение сохранено как /app/auth_images/vnik2_auth.jpg
+INFO:     192.168.1.108:34462 - "POST /register HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:34462 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:34462 - "POST /login HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:34462 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:34462 - "GET /auth_images/vnik2 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:49686 - "POST /upload HTTP/1.1" 200 OK
+INFO:     192.168.1.108:49686 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:49698 - "GET /auth_images/vnik2 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:49686 - "GET /images/1 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:49686 - "POST /logout HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:49686 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:49686 - "POST /login HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:49686 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:49686 - "GET /auth_images/vnik HTTP/1.1" 200 OK
+INFO:     192.168.1.108:49686 - "POST /logout HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:49686 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:49686 - "POST /login HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:49686 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:49686 - "GET /auth_images/vnik2 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:35470 - "GET /images/1 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:32942 - "POST /logout HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:32942 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:32942 - "POST /login HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:32942 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:32942 - "GET /auth_images/vnik HTTP/1.1" 200 OK
+INFO:     192.168.1.108:55290 - "POST /upload HTTP/1.1" 200 OK
+INFO:     192.168.1.108:55290 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:55290 - "GET /images/2 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:55298 - "GET /auth_images/vnik HTTP/1.1" 200 OK
+INFO:     192.168.1.108:47896 - "GET /user/images HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     192.168.1.108:33690 - "GET /images/2 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:33690 - "GET /images/1 HTTP/1.1" 307 Temporary Redirect
+INFO:     192.168.1.108:33690 - "GET /login HTTP/1.1" 200 OK
+INFO:     Started server process [7]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     192.168.1.108:47674 - "GET /register HTTP/1.1" 200 OK
+Изображение сохранено как /app/auth_images/vnik_auth.jpg
+INFO:     192.168.1.108:56802 - "POST /register HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:56802 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:56802 - "POST /login HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:56802 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:56802 - "GET /auth_images/vnik HTTP/1.1" 200 OK
+INFO:     192.168.1.108:48692 - "POST /upload HTTP/1.1" 200 OK
+INFO:     192.168.1.108:48692 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:48692 - "GET /images/1 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:48706 - "GET /auth_images/vnik HTTP/1.1" 200 OK
+INFO:     192.168.1.108:48692 - "POST /logout HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:48692 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:48692 - "GET /register HTTP/1.1" 200 OK
+Изображение сохранено как /app/auth_images/vnik2_auth.jpg
+INFO:     192.168.1.108:48692 - "POST /register HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:48692 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:48692 - "POST /login HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:48692 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:48692 - "GET /auth_images/vnik2 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:48612 - "POST /upload HTTP/1.1" 200 OK
+INFO:     192.168.1.108:48612 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:48612 - "GET /images/2 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:54220 - "GET /auth_images/vnik2 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:54222 - "GET /images/1 HTTP/1.1" 307 Temporary Redirect
+INFO:     192.168.1.108:54222 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:54222 - "GET /auth_images/vnik2 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:54232 - "GET /images/2 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:59552 - "GET /images/2 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:59552 - "GET /images/1 HTTP/1.1" 307 Temporary Redirect
+INFO:     192.168.1.108:59552 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:59554 - "GET /images/2 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:59552 - "GET /auth_images/vnik2 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:54682 - "GET /auth_images/vnik HTTP/1.1" 307 Temporary Redirect
+INFO:     192.168.1.108:54682 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:54682 - "GET /auth_images/vnik2 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:54690 - "GET /images/2 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:34288 - "GET /auth_images/vnik2 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:34288 - "GET /auth_images/vnik1 HTTP/1.1" 307 Temporary Redirect
+INFO:     192.168.1.108:34288 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:34288 - "GET /images/2 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:35878 - "POST /login HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:35878 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:35878 - "GET /auth_images/vnik2 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:35892 - "GET /images/2 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:48928 - "POST /logout HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:48928 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:48928 - "POST /login HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:48928 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:48928 - "GET /auth_images/vnik2 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:48936 - "GET /images/2 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:48936 - "POST /logout HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:48936 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:48936 - "POST /login HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:48936 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:48936 - "GET /auth_images/vnik HTTP/1.1" 200 OK
+INFO:     192.168.1.108:36852 - "GET /images/1 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:39976 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:39976 - "GET /auth_images/vnik2 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:39980 - "GET /images/2 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:39994 - "GET /images/2 HTTP/1.1" 307 Temporary Redirect
+INFO:     192.168.1.108:39994 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:40002 - "GET /images/2 HTTP/1.1" 307 Temporary Redirect
+INFO:     192.168.1.108:40002 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:41492 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:41492 - "GET /auth_images/vnik HTTP/1.1" 200 OK
+INFO:     192.168.1.108:41508 - "GET /images/1 HTTP/1.1" 200 OK
+INFO:     Started server process [7]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+Изображение сохранено как /app/auth_images/user1_auth.jpg
+Изображение сохранено как /app/auth_images/user2_auth.jpg
+Изображение сохранено как /app/auth_images/user3_auth.jpg
+INFO:     192.168.1.108:41078 - "GET /profile HTTP/1.1" 307 Temporary Redirect
+INFO:     192.168.1.108:41078 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:41078 - "POST /login HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:41078 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:41078 - "GET /auth_images/user1 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:33824 - "POST /logout HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:33824 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:33838 - "POST /login HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:33838 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:33838 - "GET /auth_images/user2 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:34600 - "POST /logout HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:34600 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:34604 - "POST /login HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:34604 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:34604 - "GET /auth_images/user1 HTTP/1.1" 200 OK
+INFO:     192.168.1.108:46262 - "POST /logout HTTP/1.1" 303 See Other
+INFO:     192.168.1.108:46262 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:34024 - "GET /login HTTP/1.1" 200 OK
+INFO:     192.168.1.108:34036 - "GET /profile HTTP/1.1" 200 OK
+INFO:     192.168.1.108:34036 - "GET /auth_images/user2 HTTP/1.1" 200 OK
